@@ -1,4 +1,4 @@
-# PDFLingo
+# TransDocAI
 
 PDFLingo is an AI-powered tool for extracting and translating text from PDFs while preserving formatting. It leverages OCR (Optical Character Recognition) using **DocTR**, along with Google Translate, to provide accurate translations.
 
