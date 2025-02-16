@@ -61,5 +61,5 @@ model = ocr_predictor(pretrained=True).to('cuda')
 - **ReportLab** – PDF generation
 
 ## License
-This project is open-source under the **MIT License**.
+This project is open-source under the **Apache License 2.0**.
 
