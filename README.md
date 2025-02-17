@@ -1,6 +1,6 @@
 # TransDocAI
 
-PDFLingo is an AI-powered tool for extracting and translating text from PDFs while preserving formatting. It leverages OCR (Optical Character Recognition) using **DocTR**, along with Google Translate, to provide accurate translations.
+TransDocAI is an AI-powered tool for extracting and translating text from PDFs while preserving formatting. It leverages OCR (Optical Character Recognition) using **DocTR**, along with Google Translate, to provide accurate translations.
 
 ## Features
 - Extracts text from PDFs using **Doctr OCR**
@@ -11,7 +11,7 @@ PDFLingo is an AI-powered tool for extracting and translating text from PDFs whi
 
 ## Installation
 
-Ensure you have Python installed (>=3.8) and then install the dependencies:
+Ensure you have Python installed (>=3.9) and then install the dependencies:
 
 ```sh
 pip install -r requirements.txt
@@ -53,7 +53,6 @@ model = ocr_predictor(pretrained=True).to('cuda')
 ```
 
 ## Dependencies
-- **pdfplumber** – PDF text extraction
 - **doctr** – OCR engine for text detection
 - **pdf2image** – Converts PDFs to images
 - **Pillow** – Image processing
