@@ -20,7 +20,7 @@ pip install -r requirements.txt
 You may also need to install additional system dependencies for PDF and OCR processing:
 
 ```sh
-sudo apt-get install poppler-utils tesseract-ocr
+sudo apt-get install poppler-utils 
 ```
 
 ## Usage
